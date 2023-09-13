@@ -36,3 +36,29 @@ const myFunction = function(){
 console.log(typeof heros);
 
 // https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-typeof-operator
+
+
+//*********************************************************************************************** */
+
+// stack (primitive),Heap (nonPrimitive)
+// must importand
+
+let myYoutubename = "jayanshidairydream"
+
+let anothername = myYoutubename
+anothername = "cowshub"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne = {
+    email : "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email="jajati@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
